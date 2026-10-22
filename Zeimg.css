@@ -1,0 +1,91 @@
+#A001 {
+border: 3px solid;
+border-color:gold;
+border-radius: 5px;
+height: 150px;
+width: 150px;
+background-image: url(Me.jpg);
+background-position: center;
+background-size: cover;
+float: left;
+}
+#A002 {
+border: 3px solid;
+border-color:gold;
+border-radius: 5px;
+height: 150px;
+width: 150px;
+background-image: url(Screenshot\ 2026-10-19\ 031301.png);
+background-position: center;
+background-size: cover;
+float: left;
+}
+.A003 {
+border: 3px solid;
+border-color:gold;
+border-radius: 5px;
+height: 150px;
+width: 150px;
+background-color: black;
+background-position: center;
+background-size: cover;
+float: left;
+}
+#A001:hover{
+    background-image: url(What.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 3s;
+}
+#A001:active{
+    background-image: url(Ouch.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+#A001:after{
+    background-image: url(skeleton-skeleton-meme.png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.6s;
+}
+.Abtwho {
+    color:white; background-color: black; 
+    border-style:solid;
+    border-width: 3px; 
+    border-color: gold;
+    font-family: sans-serif;
+}
+#Wowzy {
+    color:white; background-color: black; 
+    border-style:solid;
+    border-width: 3px; 
+    border-color: gold;
+    height: auto;
+    width:auto;
+}
+
+.linkous {
+    color:white; background-color: black; 
+    border-style:solid;
+    text-align: center;
+    font-family: sans-serif;
+}
+.linkous:hover {
+    color:gold; 
+    background-color: black; 
+    margin: 0%;
+    text-align: center;
+}
+.linkous:active {
+    color:red; 
+    background-color: black; 
+    margin: 0%;
+    text-align: center;
+}
+.linkous:after {
+    color:gray; 
+    background-color: black; 
+    margin: 0%;
+    text-align: center;
+}
